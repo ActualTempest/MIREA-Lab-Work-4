@@ -61,7 +61,6 @@ END_FUNCTION_BLOCK
 
 FUNCTION_BLOCK FB_Axis (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
 	VAR_INPUT
-		u : REAL;
 		reset_error : BOOL;
 		endswitch_a_reached : BOOL;
 		endswitch_b_reached : BOOL;
@@ -78,28 +77,12 @@ FUNCTION_BLOCK FB_Axis (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$
 		speed : REAL;
 	END_VAR
 	VAR
-		i : INT;
 		last_counter : INT;
-		dir : BOOL;
-		spid : REAL;
-		k : INT;
 	END_VAR
 END_FUNCTION_BLOCK
 
-{REDUND_ERROR} FUNCTION_BLOCK FB_Regulator (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+{REDUND_ERROR} FUNCTION_BLOCK Pos (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
 	VAR_INPUT
-		e : REAL;
-	END_VAR
-	VAR_OUTPUT
-		u : REAL;
-	END_VAR
-	VAR
-		k_p : REAL;
-		k_i : REAL;
-		integrator : FB_Integrator;
-		iyOld : REAL;
-		max_abc_value : REAL := 24;
-		dt : REAL;
-		x : REAL;
+		enable : BOOL;
 	END_VAR
 END_FUNCTION_BLOCK

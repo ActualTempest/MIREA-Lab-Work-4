@@ -6,37 +6,37 @@
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Acp10man"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Acp10par"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Acp10sdc"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Acp10sim"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Arnc0man"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.0" />
+    Version="5.02.1" />
   <Library
     Name="AsArLog"
     IsDeployed="true"
@@ -46,12 +46,6 @@
   <Library
     Name="AsArProf"
     IsDeployed="true"
-    IsStatic="false"
-    UseAsStatic="false"
-    Version="" />
-  <Library
-    Name="AsBrStr"
-    IsDeployed="false"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
@@ -120,7 +114,7 @@
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
-    Version="3.13.1" />
+    Version="5.02.1" />
   <Library
     Name="Operator"
     IsDeployed="false"

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1577186486_4_
-#define _BUR_1577186486_4_
+#ifndef _BUR_1765888020_4_
+#define _BUR_1765888020_4_
 
 #include <bur/plctypes.h>
 
@@ -13,13 +13,12 @@
 
 
 /* Variables */
-_BUR_LOCAL plcbit reset;
-_BUR_LOCAL signed short k;
-_BUR_LOCAL plcbit Already_Homed;
+_BUR_LOCAL struct Pos posEnableRight;
+_BUR_LOCAL struct Pos posEnable;
 _BUR_LOCAL unsigned short pwm_period;
 _BUR_LOCAL struct FB_Controller fb_controller;
 _BUR_LOCAL signed short coil_pwm_value;
-_BUR_LOCAL plcbit coil_powered_X;
+_BUR_LOCAL plcbit coil_powered;
 _BUR_LOCAL_RETAIN struct FB_Axis axis_X;
 _BUR_LOCAL signed short desired_speed;
 _BUR_LOCAL signed short min_task;
@@ -39,5 +38,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Library.fun\\\" scope \\
 __asm__(".previous");
 
 
-#endif /* _BUR_1577186486_4_ */
+#endif /* _BUR_1765888020_4_ */
 

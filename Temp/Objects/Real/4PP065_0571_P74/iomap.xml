@@ -610,7 +610,7 @@
 <Prod Device="IF4.ST2.IF1.ST4" DPName="OverCurrentError01" Kind="io"/>
 </LN>
 <LN ID="%QW.IF4.ST2.IF1.ST4.PulseWidthCurrentPWM02" Type="INT">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.pwm_value" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.pwm_value" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="PulseWidthCurrentPWM02" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.StartLatch02" Type="BOOL">
@@ -620,19 +620,19 @@
 <Cons Device="IF4.ST2.IF1.ST4" DPName="DitherDisable02" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ClearError02" Type="BOOL">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.reset_error" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.reset_error" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ClearError02" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ShowMeanCurrent02" Type="BOOL">
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ShowMeanCurrent02" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ResetCounter02" Type="BOOL">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.reset_counter" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.reset_counter" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ResetCounter02" Kind="io"/>
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST4.Counter02" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="Counter02" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.counter" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.counter" Kind="pv"/>
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST4.CounterLatch02" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="CounterLatch02" Kind="io"/>
@@ -645,11 +645,11 @@
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.StatusInput07" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="StatusInput07" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.endswitch_a_reached" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.endswitch_a_reached" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.StatusInput08" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="StatusInput08" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:gaxis03.endswitch_b_reached" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:axis_Y.endswitch_b_reached" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.nLatchPending02" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="nLatchPending02" Kind="io"/>
@@ -667,7 +667,7 @@
 <Prod Device="IF4.ST2.IF1.ST4" DPName="OverCurrentError02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF4.ST2.IF1.ST4.PulseWidthCurrentPWM03" Type="INT">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.pwm_value" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.pwm_value" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="PulseWidthCurrentPWM03" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.StartLatch03" Type="BOOL">
@@ -677,19 +677,19 @@
 <Cons Device="IF4.ST2.IF1.ST4" DPName="DitherDisable03" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ClearError03" Type="BOOL">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.reset_error" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.reset_error" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ClearError03" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ShowMeanCurrent03" Type="BOOL">
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ShowMeanCurrent03" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST2.IF1.ST4.ResetCounter03" Type="BOOL">
-<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.reset_counter" Kind="pv"/>
+<Prod Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.reset_counter" Kind="pv"/>
 <Cons Device="IF4.ST2.IF1.ST4" DPName="ResetCounter03" Kind="io"/>
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST4.Counter03" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="Counter03" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.counter" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.counter" Kind="pv"/>
 </LN>
 <LN ID="%IW.IF4.ST2.IF1.ST4.CounterLatch03" Type="INT">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="CounterLatch03" Kind="io"/>
@@ -702,11 +702,11 @@
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.StatusInput11" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="StatusInput11" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.endswitch_a_reached" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.endswitch_a_reached" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.StatusInput12" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="StatusInput12" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:gaxis05.endswitch_b_reached" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:axis_Z.endswitch_b_reached" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST4.nLatchPending03" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST4" DPName="nLatchPending03" Kind="io"/>
@@ -831,21 +831,27 @@
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput01" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCtr:coil_powered" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput02" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput02" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCtr:coil_powered_X" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCtr:posEnable.enable" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:coil_powered" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput03" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput03" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:coil_powered_Y" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCtr:posEnableRight.enable" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:coil_powered" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput04" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput04" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:coil_powered_Z" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:posEnable.enable" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:posEnable.enable" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput05" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput05" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt2:posEnableRight.enable" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::SDCAxisCt1:posEnableRight.enable" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST5.DigitalInput06" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST5" DPName="DigitalInput06" Kind="io"/>
@@ -1371,6 +1377,261 @@
 </LN>
 <LN ID="%ID.IF4.ST2.IF1.ST10.ModuleCommErrorChangeTime" Type="DATE_AND_TIME">
 <Prod Device="IF4.ST2.IF1.ST10" DPName="ModuleCommErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ModuleOk" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleOk" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_ModuleOk" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.SerialNumber" Type="UDINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.ModuleID" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.HardwareVariant" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.FirmwareVersion" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_00" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_00" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_01" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_01" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_02" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_02" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_DrvIf.iDrvOK" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_DiDoIf.iDriveReady" Kind="pv"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_03" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_03" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_04" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_04" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_05" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_05" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_06" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_06" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_07" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_07" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_09" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_09" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_10" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_10" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_11" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_11" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_14" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_14" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETAD_Input_Bool_15" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETAD_Input_Bool_15" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_00" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_00" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_01" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_01" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_02" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_02" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_04" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_04" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_05" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_05" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_06" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_06" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_07" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_07" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_08" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_08" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_09" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_09" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_10" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_10" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_11" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_11" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_12" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_12" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_13" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_13" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_14" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_14" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.ETI_Input_Bool_15" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ETI_Input_Bool_15" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.RFRD_Input" Type="INT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="RFRD_Input" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.OTR_Input" Type="INT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="OTR_Input" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.LCR_Input" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="LCR_Input" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.THD_Input" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="THD_Input" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.THR_Input" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="THR_Input" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.IOLR_Input_Bool_00" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="IOLR_Input_Bool_00" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.IOLR_Input_Bool_01" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="IOLR_Input_Bool_01" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.IOLR_Input_Bool_02" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="IOLR_Input_Bool_02" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.IOLR_Input_Bool_03" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="IOLR_Input_Bool_03" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.IOLR_Input_Bool_09" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="IOLR_Input_Bool_09" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.ERRD_Input" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ERRD_Input" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.LFT_Input" Type="INT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="LFT_Input" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.ST2.IF1.ST11.SDC_LifeCnt" Type="SINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="SDC_LifeCnt" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_DrvIf.iLifeCnt" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_DiDoIf.iLifeCntDriveReady" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="gAxis03_DiDoIf.iLifeCntDriveEnable" Kind="pv"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_00" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_DiDoIf.oDriveEnable" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_00" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_01" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_ModuleOk" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_01" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_02" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_ModuleOk" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_02" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_03" Type="BOOL">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_DiDoIf.oDriveEnable" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_03" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_07" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_07" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_11" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_11" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_12" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_12" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_13" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_13" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_14" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_14" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMDD_Output_Bool_15" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMDD_Output_Bool_15" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_00" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_00" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_01" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_01" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_03" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_03" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_04" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_04" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_09" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_09" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_13" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_13" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.CMI_Output_Bool_15" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="CMI_Output_Bool_15" Kind="io"/>
+</LN>
+<LN ID="%QW.IF4.ST2.IF1.ST11.LFRD_Output" Type="INT">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_DrvIf.oSetPos" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="LFRD_Output" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.IOLR_Output_Bool_09" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="IOLR_Output_Bool_09" Kind="io"/>
+</LN>
+<LN ID="%QW.IF4.ST2.IF1.ST11.SDC_SetTime" Type="INT">
+<Prod Device="TC#1-CPYDEV" DPName="gAxis03_DrvIf.oSetTime" Kind="pv"/>
+<Cons Device="IF4.ST2.IF1.ST11" DPName="SDC_SetTime" Kind="io"/>
+</LN>
+<LN ID="%QX.IF4.ST2.IF1.ST11.DigitalOutput01" Type="BOOL">
+<Cons Device="IF4.ST2.IF1.ST11" DPName="DigitalOutput01" Kind="io"/>
+</LN>
+<LN ID="%IX.IF4.ST2.IF1.ST11.StatusDigitalOutput01" Type="BOOL">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="StatusDigitalOutput01" Kind="io"/>
+</LN>
+<LN ID="%IW.IF4.ST2.IF1.ST11.BusModuleId" Type="UINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="BusModuleId" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.ST2.IF1.ST11.ModeOfOperation" Type="USINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModeOfOperation" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.ModeOfOperationChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModeOfOperationChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfResets" Type="DINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfResets" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfResetsChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfResetsChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfInits" Type="DINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfInits" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfInitsChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfInitsChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfFwUpdates" Type="DINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfFwUpdates" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.NrOfFwUpdatesChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="NrOfFwUpdatesChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.ModuleNoComm" Type="DINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleNoComm" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.ModuleNoCommChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleNoCommChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.ModuleCommError" Type="DINT">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleCommError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.ST2.IF1.ST11.ModuleCommErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="IF4.ST2.IF1.ST11" DPName="ModuleCommErrorChangeTime" Kind="io"/>
 </LN>
 <LN ID="%IX.IF4.ST2.IF1.ST1.ModuleOk" Type="BOOL">
 <Prod Device="IF4.ST2.IF1.ST1" DPName="ModuleOk" Kind="io"/>

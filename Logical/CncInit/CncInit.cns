@@ -1,20 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.5.2.102?>
-<InitParameter Version="3.13.0" NcSwId="ARNC0">
+<InitParameter Version="5.2.1" NcSwId="ARNC0">
   <Group ID="ARNC0CNC_typ">
     <Group ID="limit">
       <Parameter ID="v" Value="6500.0" />
       <Parameter ID="a_pos" Value="10000.0" />
       <Parameter ID="a_neg" Value="10000.0" />
-      <Parameter ID="t_jolt" Value="0" />
+      <Parameter ID="t_jolt" Value="0.0" />
       <Parameter ID="blocktransition" Value="ncSTANDARD" />
-      <Parameter ID="v_jump" Value="0" />
-      <Parameter ID="a_jump" Value="10" />
-      <Parameter ID="v_jump_t" Value="0" />
+      <Parameter ID="v_jump" Value="0.0" />
+      <Parameter ID="a_jump" Value="10.0" />
+      <Parameter ID="v_jump_t" Value="0.0" />
       <Parameter ID="s_jump_t" Value="0.5" />
       <Parameter ID="s_sync1_t" Value="ncOFF" />
       <Parameter ID="s_sync2_t" Value="ncOFF" />
-      <Parameter ID="radius_err" Value="1" />
+      <Parameter ID="radius_err" Value="1.0" />
       <Parameter ID="block_buffer" Value="35" />
       <Parameter ID="elements" Value="10" />
       <Parameter ID="lookahead" Value="38" />
@@ -78,7 +77,7 @@
       <Group ID="axis[0]">
         <Parameter ID="nc_object_name" Value="AxisX" />
         <Parameter ID="name" Value="X" />
-        <Parameter ID="type" Value="ncLINEAR" />
+        <Parameter ID="type" Value="ncCNC" />
         <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
         <Parameter ID="unitfactor" Value="1.0" />
         <Parameter ID="t_axfilter" Value="0.0" />
@@ -88,7 +87,7 @@
         <Parameter ID="add_par_id" Value="0" />
       </Group>
       <Group ID="axis[1]">
-        <Parameter ID="nc_object_name" Value="gAxis03" />
+        <Parameter ID="nc_object_name" Value="AxisY" />
         <Parameter ID="name" Value="Y" />
         <Parameter ID="type" Value="ncCNC" />
         <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
@@ -100,7 +99,7 @@
         <Parameter ID="add_par_id" Value="0" />
       </Group>
       <Group ID="axis[2]">
-        <Parameter ID="nc_object_name" Value="gAxis05" />
+        <Parameter ID="nc_object_name" Value="AxisZ" />
         <Parameter ID="name" Value="Z" />
         <Parameter ID="type" Value="ncCNC" />
         <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
@@ -306,6 +305,11 @@
       <Group ID="parameter">
         <Parameter ID="param_buffer" Value="0" />
         <Parameter ID="trigger_buffer" Value="10" />
+      </Group>
+    </Group>
+    <Group ID="monitor">
+      <Group ID="parameter">
+        <Parameter ID="pos_mode" Value="ncOFF" />
       </Group>
     </Group>
     <Group ID="message">

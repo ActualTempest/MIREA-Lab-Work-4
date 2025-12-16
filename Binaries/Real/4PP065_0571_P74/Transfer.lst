@@ -3,9 +3,12 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="D4.52"/>
   <Hardware Target="SG4"/>
-  <Operation Delete="SDCAxisCt1.br"/>
   <Operation Delete="SDCAxisCt2.br"/>
+  <Operation Delete="SDCAxisCt1.br"/>
   <Operation Delete="SDCAxisCtr.br"/>
+  <Operation Delete="ncsdcctrl.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="Acp10sim.br"/>
   <Operation Delete="Arnc0man.br"/>
   <Operation Delete="Acp10_MC.br"/>
   <Operation Delete="Acp10sdc.br"/>
@@ -18,16 +21,16 @@
   <Operation Delete="Acp10man.br"/>
   <Operation Delete="FileIO.br"/>
   <Operation Delete="astime.br"/>
-  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
-  <Operation Download="Arnc0map.br" Memory="UserROM"/>
-  <Operation Download="arnc0cfg.br" Memory="UserROM"/>
-  <Operation Download="Acp10map.br" Memory="UserROM"/>
-  <Operation Download="acp10cfg.br" Memory="UserROM"/>
   <Operation Download="Acp10map1.br" Memory="UserROM"/>
+  <Operation Download="acp10cfg.br" Memory="UserROM"/>
+  <Operation Download="Acp10map.br" Memory="UserROM"/>
+  <Operation Download="arnc0cfg.br" Memory="UserROM"/>
+  <Operation Download="Arnc0map.br" Memory="UserROM"/>
   <Operation Download="NcGlobal.br" Memory="UserROM"/>
   <Operation Download="powerlnk.br" Memory="UserROM"/>
   <Operation Download="Acp10par.br" Memory="UserROM"/>
@@ -44,26 +47,26 @@
   <Operation Download="Acp10sdc.br" Memory="UserROM"/>
   <Operation Download="Acp10_MC.br" Memory="UserROM"/>
   <Operation Download="Arnc0man.br" Memory="UserROM"/>
+  <Operation Download="Acp10sim.br" Memory="UserROM"/>
   <Operation Download="Arnc0sys.br" Memory="UserROM"/>
-  <Operation Download="AxisInit.br" Memory="UserROM"/>
-  <Operation Download="gAxis05a.br" Memory="UserROM"/>
+  <Operation Download="Acp10sys.br" Memory="UserROM"/>
   <Operation Download="gAxis03a.br" Memory="UserROM"/>
-  <Operation Download="AxisApt.br" Memory="UserROM"/>
-  <Operation Download="gAxis05i.br" Memory="UserROM"/>
   <Operation Download="gAxis03i.br" Memory="UserROM"/>
+  <Operation Download="AxisApt.br" Memory="UserROM"/>
   <Operation Download="CncInit.br" Memory="UserROM"/>
+  <Operation Download="AxInit.br" Memory="UserROM"/>
   <Operation Restart="warm"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
   <Operation Download="asiotime.br" Memory="UserROM"/>
   <Operation Download="Library.br" Memory="UserROM"/>
   <Operation Download="asstring.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
-  <Operation Download="udbdef.br" Memory="UserROM"/>
-  <Operation Download="ashwac.br" Memory="UserROM"/>
-  <Operation Download="iomap.br" Memory="UserROM"/>
-  <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
   <Operation Download="AsMath.br" Memory="UserROM"/>
-  <Operation Download="CncProg.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="gmcipvar.br" Memory="UserROM"/>
   <Operation Download="gmcipfun.br" Memory="UserROM"/>
   <Operation Download="gmcipfub.br" Memory="UserROM"/>
@@ -83,7 +86,9 @@
   <Operation Download="gmcipesm.br" Memory="UserROM"/>
   <Operation Download="gmcipmxd.br" Memory="UserROM"/>
   <Operation Download="gmcipmx.br" Memory="UserROM"/>
+  <Operation Download="CncProg1.br" Memory="UserROM"/>
+  <Operation Download="ncsdcctrl.br" Memory="UserROM"/>
   <Operation Download="SDCAxisCtr.br" Memory="UserROM"/>
-  <Operation Download="SDCAxisCt2.br" Memory="UserROM"/>
   <Operation Download="SDCAxisCt1.br" Memory="UserROM"/>
+  <Operation Download="SDCAxisCt2.br" Memory="UserROM"/>
 </Transfer>

@@ -7,17 +7,15 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="DataObject" Language="Apt">AxisApt</Object>
     <Object Type="File" Description="Local data types">Types.typ</Object>
-    <Object Type="DataObject" Language="Ax">AxisInit</Object>
-    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
-    <Object Type="Package" Description="gAxis03obj">gAxis03obj</Object>
-    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_X</Object>
     <Object Type="Program" Language="IEC">ncsdcctrl</Object>
-    <Object Type="Package" Description="gAxis05obj">gAxis05obj</Object>
-    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_Y</Object>
-    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_Z</Object>
-    <Object Type="DataObject" Language="Cns">CncInit</Object>
-    <Object Type="DataObject" Language="Cnc">CncProg</Object>
+    <Object Type="Package" Description="gAxis03obj">gAxis03obj</Object>
     <Object Type="Package">GmcIpConfig</Object>
     <Object Type="Package">GmcIpUserConfig</Object>
+    <Object Type="DataObject" Language="Cns">CncInit</Object>
+    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_X</Object>
+    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_Y</Object>
+    <Object Type="Program" Language="ANSIC">SDCAxisCtrl_Z</Object>
+    <Object Type="DataObject" Language="Cnc">CncProg1</Object>
+    <Object Type="DataObject" Language="Ax">AxInit</Object>
   </Objects>
 </Package>

@@ -8,6 +8,6 @@
     <File>FB_Integrator.c</File>
     <File>FB_Endswitch.c</File>
     <File>FB_Axis.c</File>
-    <File>FB_Regulator.c</File>
+    <File>Pos.c</File>
   </Files>
 </Library>

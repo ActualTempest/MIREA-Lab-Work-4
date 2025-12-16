@@ -8,5 +8,5 @@ void FB_Endswitch(void) {};
 void _FB_Endswitch(void) {};
 void FB_Axis(void) {};
 void _FB_Axis(void) {};
-void FB_Regulator(void) {};
-void _FB_Regulator(void) {};
+void Pos(void) {};
+void _Pos(void) {};

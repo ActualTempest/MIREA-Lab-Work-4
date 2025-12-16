@@ -5,10 +5,10 @@
     <ConnectionParameters>/AM=* /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\projects\laba\SDCAxis.apj</ApjFullFileName>
+    <ApjFullFileName>D:\mrz\LB4V3\SDCAxis.apj</ApjFullFileName>
     <ProjectName>SDCAxis</ProjectName>
     <ActiveConfigurationName>Real</ActiveConfigurationName>
-    <LicenseDataFolder>C:\projects\laba\Temp\Objects\Real\4PP065_0571_P74</LicenseDataFolder>
+    <LicenseDataFolder>D:\mrz\LB4V3\Temp\Objects\Real\4PP065_0571_P74</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

@@ -5,7 +5,7 @@
     FB_Controller;
     FB_Endswitch;
     FB_Axis;
-    FB_Regulator;
+    Pos;
   local:
     *;
  };

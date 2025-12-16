@@ -71,42 +71,26 @@ typedef struct FB_Endswitch
 typedef struct FB_Axis
 {
 	/* VAR_INPUT (analog) */
-	float u;
 	signed char pwm_percentage;
 	/* VAR_OUTPUT (analog) */
 	signed short pwm_value;
 	signed short counter;
 	float speed;
 	/* VAR (analog) */
-	signed short i;
 	signed short last_counter;
-	float spid;
-	signed short k;
 	/* VAR_INPUT (digital) */
 	plcbit reset_error;
 	plcbit endswitch_a_reached;
 	plcbit endswitch_b_reached;
 	/* VAR_OUTPUT (digital) */
 	plcbit reset_counter;
-	/* VAR (digital) */
-	plcbit dir;
 } FB_Axis_typ;
 
-typedef struct FB_Regulator
+typedef struct Pos
 {
-	/* VAR_INPUT (analog) */
-	float e;
-	/* VAR_OUTPUT (analog) */
-	float u;
-	/* VAR (analog) */
-	float k_p;
-	float k_i;
-	struct FB_Integrator integrator;
-	float iyOld;
-	float max_abc_value;
-	float dt;
-	float x;
-} FB_Regulator_typ;
+	/* VAR_INPUT (digital) */
+	plcbit enable;
+} Pos_typ;
 
 
 
@@ -116,7 +100,7 @@ _BUR_PUBLIC void FB_Integrator(struct FB_Integrator* inst);
 _BUR_PUBLIC void FB_Controller(struct FB_Controller* inst);
 _BUR_PUBLIC void FB_Endswitch(struct FB_Endswitch* inst);
 _BUR_PUBLIC void FB_Axis(struct FB_Axis* inst);
-_BUR_PUBLIC void FB_Regulator(struct FB_Regulator* inst);
+_BUR_PUBLIC void Pos(struct Pos* inst);
 
 
 #ifdef __cplusplus

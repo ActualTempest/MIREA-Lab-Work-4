@@ -4,22 +4,26 @@
   <TaskClass
     Name="Cyclic#1">
     <Task
+      Name="ncsdcctrl"
+      Disable="false"
+      Source="ncsdcctrl"
+      Language="IEC">
+      <InternalFile
+        Path="D:\mrz\LB4V3\Temp\Objects\Real\4PP065_0571_P74\ncsdcctrl\ncsdcctrlCyclic.st.var" />
+      <InternalFile
+        Path="D:\mrz\LB4V3\Temp\Objects\Real\4PP065_0571_P74\ncsdcctrl\ncsdcctrlInit.st.var" />
+      <File
+        Path="D:\mrz\LB4V3\Logical\ncsdcctrl\ncsdcctrl.typ" />
+      <File
+        Path="D:\mrz\LB4V3\Logical\ncsdcctrl\ncsdcctrl.var" />
+    </Task>
+    <Task
       Name="SDCAxisCtr"
       Disable="false"
       Source="SDCAxisCtrl_X"
       Language="ANSIC">
       <File
-        Path="C:\projects\laba\Logical\SDCAxisCtrl_X\Variables.var" />
-    </Task>
-    <Task
-      Name="SDCAxisCt2"
-      Disable="false"
-      Source="SDCAxisCtrl_Z"
-      Language="ANSIC">
-      <File
-        Path="C:\projects\laba\Logical\SDCAxisCtrl_Z\Types.typ" />
-      <File
-        Path="C:\projects\laba\Logical\SDCAxisCtrl_Z\Variables.var" />
+        Path="D:\mrz\LB4V3\Logical\SDCAxisCtrl_X\Variables.var" />
     </Task>
     <Task
       Name="SDCAxisCt1"
@@ -27,9 +31,15 @@
       Source="SDCAxisCtrl_Y"
       Language="ANSIC">
       <File
-        Path="C:\projects\laba\Logical\SDCAxisCtrl_Y\Types.typ" />
+        Path="D:\mrz\LB4V3\Logical\SDCAxisCtrl_Y\Variables.var" />
+    </Task>
+    <Task
+      Name="SDCAxisCt2"
+      Disable="false"
+      Source="SDCAxisCtrl_Z"
+      Language="ANSIC">
       <File
-        Path="C:\projects\laba\Logical\SDCAxisCtrl_Y\Variables.var" />
+        Path="D:\mrz\LB4V3\Logical\SDCAxisCtrl_Z\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

@@ -3,7 +3,6 @@
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
     <Task Name="SDCAxisCtr" Source="SDCAxisCtrl_X.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
-    <Task Name="ncsdcctrl" Source="ncsdcctrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
@@ -17,10 +16,6 @@
   </DataObjects>
   <NcDataObjects>
     <NcDataObject Name="AxisApt" Source="AxisApt.dob" Memory="UserROM" Language="Apt" />
-    <NcDataObject Name="AxisInit" Source="AxisInit.dob" Memory="UserROM" Language="Ax" />
-    <NcDataObject Name="acp10etxen" Source="acp10etxen.dob" Memory="UserROM" Language="Ett" />
-    <NcDataObject Name="gAxis05a" Source="gAxis05obj.gAxis05a.dob" Memory="UserROM" Language="Apt" />
-    <NcDataObject Name="gAxis05i" Source="gAxis05obj.gAxis05i.dob" Memory="UserROM" Language="Ax" />
   </NcDataObjects>
   <Binaries>
     <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
@@ -51,6 +46,5 @@
     <LibraryObject Name="fileio" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="powerlnk" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="Library" Source="Libraries.Library.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
-    <LibraryObject Name="AsBrStr" Source="Libraries.AsBrStr.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

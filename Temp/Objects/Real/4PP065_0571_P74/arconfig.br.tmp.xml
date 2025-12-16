@@ -412,6 +412,48 @@
     <Parameter ID="StatusInfo" Value="on" />
     <Parameter ID="PowerInfo" Value="off" />
   </Module>
+  <Module ID="IF4.ST2.IF1.ST11" Hardware="8I64xxxxxxx.00x-1">
+    <Parameter ID="HardwareModuleName" Value="8I64xxxxxxx.00x-1" />
+  </Module>
+  <Module ID="IF4.ST2.IF1.ST11.IO" Hardware="8I64xxxxxxx.00x-1">
+    <Parameter ID="FunctionModel" Value="MotionConfiguration" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="InverterInfo" Value="off" />
+    <Parameter ID="enableETI" Value="on" />
+    <Parameter ID="enableOTR" Value="on" />
+    <Parameter ID="enableLCR" Value="on" />
+    <Parameter ID="enableTHD" Value="on" />
+    <Parameter ID="enableTHR" Value="on" />
+    <Parameter ID="enableIOLRinput" Value="on" />
+    <Parameter ID="enableERRD" Value="on" />
+    <Parameter ID="enableLFT" Value="on" />
+    <Parameter ID="enableCMI" Value="on" />
+    <Parameter ID="enableIOLR" Value="on" />
+    <Parameter ID="enableDigitalOutput" Value="on" />
+    <Parameter ID="packedETAD" Value="unpacked" />
+    <Parameter ID="packedETI" Value="unpacked" />
+    <Parameter ID="packedCMDD" Value="unpacked" />
+    <Parameter ID="packedCMI" Value="unpacked" />
+    <Parameter ID="LFRD_LFR_Filter" Value="LFRD_RFRD" />
+    <Parameter ID="SDC_Selection" Value="1" Type="INT" />
+    <Parameter ID="SDC_Mode" Value="1" Type="INT" />
+    <Parameter ID="SDCAct" Value="Yes" />
+    <Parameter ID="CounterEnable" Value="off" />
+    <Parameter ID="DigitalOutputMode01" Value="fastDO" />
+    <Parameter ID="DownloadParameters" Value="onChange" />
+    <Parameter ID="ACC" Value="1" Type="UINT" />
+    <Parameter ID="DEC" Value="1" Type="UINT" />
+    <Parameter ID="LAC" Value="2" Type="UINT" />
+    <Parameter ID="FR1" Value="167" Type="UINT" />
+    <Parameter ID="CD1" Value="20" Type="UINT" />
+    <Parameter ID="CD2" Value="1" Type="UINT" />
+    <Parameter ID="SA2" Value="0" Type="UINT" />
+    <Parameter ID="PS2" Value="0" Type="UINT" />
+    <Parameter ID="PS4" Value="0" Type="UINT" />
+    <Parameter ID="FLOC" Value="16" Type="UINT" />
+    <Parameter ID="COD" Value="64" Type="UINT" />
+  </Module>
   <Module ID="IF5" Hardware="4PP065.0571-P74">
     <Parameter ID="ActivateOSAFT" Value="0" />
   </Module>

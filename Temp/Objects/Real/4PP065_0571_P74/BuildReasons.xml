@@ -1,6 +1,346 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrlcyclic.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\ncsdcctrl\ncsdcctrlcyclic.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\main.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_y\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\main.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_x\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrlinit.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\ncsdcctrl\ncsdcctrlinit.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl.xref">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrlcyclic.st.xrefo" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrlcyclic.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrlcyclic.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrl.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncsdcctrl\ncsdcctrl.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\sdcaxisctr.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\main.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_z\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\sdcaxisct1.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr\sdcaxisctr.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\main.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1\sdcaxisct1.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\sdcaxisct2.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_motor.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_motor.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2\sdcaxisct2.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_controller.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_controller.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_integrator.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_integrator.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_endswitch.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_endswitch.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_axis.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_axis.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\pos.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\pos.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10map.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\acp10map.ncm" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\fb_motor.c.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\library.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library\library.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\role.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\accessandsecurity\userrolesystem\role.role" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\user.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\accessandsecurity\userrolesystem\user.user" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10sys.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\acp10sys.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\arnc0sys.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\arnc0man\sg4\arnc0sys.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10cfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\acp10cfg.ncc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\tcdata\tcdata.s18d">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\tcdata\tcdata.imx" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisctr.xref">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_x\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct1.xref">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_y\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\sdcaxisct2.xref">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sdcaxisctrl_z\main.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10sdc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10sdc\sg4\ia32\acp10sdc.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10map1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\acp10map1.ncm" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\library.xref">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\library\fb_motor.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\arnc0cfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\arnc0cfg.ncc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10man.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10man\sg4\ia32\acp10man.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10_mc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10_mc\sg4\ia32\acp10_mc.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\arnc0map.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\motion\arnc0map.ncm" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\arnc0man.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\arnc0man\sg4\ia32\arnc0man.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\tcdata.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\tcdata\tcdata.s18d" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10par.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10par\sg4\ia32\acp10par.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10sim.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10sim\sg4\ia32\acp10sim.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ncglobal.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\ncglobal\sg4\ia32\ncglobal.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gaxis03a.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gaxis03obj\gaxis03a\gaxis03a.apt" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gaxis03i.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gaxis03obj\gaxis03i\gaxis03i.ax" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\axisapt.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\axisapt\acppartab.apt" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipvar.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipvar\gmcipvar.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipfun.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipfun\gmcipfun.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipfub.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipfub\gmcipfub.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipubr.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipubr\gmcipubr.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipusm.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipusm\gmcipusm.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipui.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipui\gmcipui.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipus.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipus\gmcipus.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipuc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipuserconfig\gmcipuc\gmcipuc.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipsys.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipsys\gmcipsys.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmciplbr.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmciplbr\gmciplbr.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipcbr.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipcbr\gmcipcbr.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmciplsm.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmciplsm\gmciplsm.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipcsm.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipcsm\gmcipcsm.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipcfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipcfg\gmcipcfg.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipiec.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipiec\gmcipiec.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmciplog.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmciplog\gmciplog.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipesm.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipesm\gmcipesm.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipmxd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipmxd\gmcipmxd.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\gmcipmx.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\gmcipconfig\gmcipmx\gmcipmx.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\cncinit.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\cncinit\cncinit.cns" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\cncprog1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\cncprog1\cncprog.cnc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\axinit.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\axinit\axinitacp10.ax" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\iomap.iom" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\real\4pp065_0571_p74\iomap.iom" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\real\4pp065_0571_p74\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\real\4pp065_0571_p74\acp10map.br" differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

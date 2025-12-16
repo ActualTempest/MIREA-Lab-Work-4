@@ -4,8 +4,12 @@
   <Consts />
   <Funcs>
     <Func Name="FB_Integrator" Lib="">
-      <File Name="C:/projects/laba/Logical/Libraries/Library/FB_Regulator.c">
-        <Pos L="34" C="2" PS=" Ln:34, Col:2" />
+      <File Name="D:/mrz/LB4V3/Logical/Libraries/Library/FB_Motor.c">
+        <Pos L="19" C="2" PS=" Ln:19, Col:2" />
+        <Pos L="22" C="2" PS=" Ln:22, Col:2" />
+      </File>
+      <File Name="D:/mrz/LB4V3/Logical/Libraries/Library/FB_Controller.c">
+        <Pos L="18" C="2" PS=" Ln:18, Col:2" />
       </File>
     </Func>
   </Funcs>
